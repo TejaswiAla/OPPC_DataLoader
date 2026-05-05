@@ -1,0 +1,35 @@
+# Secrets – never commit
+.solomo/
+.env
+.env.*
+*.pem
+secrets*.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# shell scripts
+*.sh
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# Logs and local data
+*.log
+*.csv
+!**/fixtures/**/*.csv
